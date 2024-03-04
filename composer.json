@@ -1,0 +1,26 @@
+{
+    "name": "uniauth/php-sdk",
+    "description": "UniAuth PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "UniAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Asika",
+            "email": "asika32764@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=8.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
